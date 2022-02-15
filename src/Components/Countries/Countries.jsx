@@ -1,11 +1,12 @@
 import React from "react";
 import { Input } from "../Input/Input";
 import { Place } from "../Place/Place"
+import './Countries.css'
 
 const Countries = () => {
-  const [country, setCountry] = React.useState("");
+  const [country, setCountry] = React.useState([]);
   const [countries, setCountries] = React.useState([]);
-  const [error, setError] = React.useState("");
+  const [error, setError] = React.useState("Hola mundo");
 
   React.useEffect(() => {
     //console.log("useEffect");
@@ -17,7 +18,7 @@ const Countries = () => {
       const data = await fetch("https://restcountries.com/v2/all");
       const dataCountry = await data.json();
 
-      //onsole.log(dataCountry)
+      console.log(dataCountry)
       setCountries(dataCountry);
       setError("");
     } catch {
@@ -32,12 +33,6 @@ const Countries = () => {
      setCountry(data)
       
       }
-
-      React.useEffect(() => {
-        //console.log("useEffect");
-        getCountry();
-      }, []);
-      console.log(country)
     
   
 
@@ -74,34 +69,34 @@ const Countries = () => {
   //      names.label = names["name"];
   // return names
   // });
+const style = {
+  border: '2px solid #F2D888',
+  padding: '10px 10px 10px 10px',
+  
 
-    
+}
+ 
   return (
-    <>
-      <div>Please, select the countries you wish to compare</div>
+    <div className="container" style={style}>
+      
       <Input setInfo={getCountry} location={countries}
         selectCountry = {country}>
          
       </Input>
 
       <div>
-        {countries ? (
+       
+        {country.length === 0 ? (
           <p>Select the country you want to travel to </p>
-        ) : !error ? (
-          <div>
-          {countries.map ((country, index) => (
-            <div>
-            <Place countries = {country} key= {index}></Place>
-          </div>
-          ))
-         
-        }
-        </div>
+        ) : !!country.length ? (
+            <Place country = {country}></Place>
+            
         ) : (
           <p>{error}</p>
         )}
+      
       </div>
-    </>
+    </div>
   );
 };
 
