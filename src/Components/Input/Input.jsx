@@ -1,22 +1,19 @@
 import React from 'react'
 
-export const Input = ({ children, location, setInfo}) => {
+export const Input = ({location, setInfo, selectCountry}) => {
+   
   return (
     <div>
-       <div className="form-floating">
-  <select className="form-select" id={children}  value={location ? location : ""} onChange = {(e) => setInfo(e.target.value)} aria-label="Floating label select example">
-    {/* {
-        option.map((place) => (
-<option value={place}>{place}</option>
-        ))
-    } */}
+       <div className="form-floating col-md-3">
+  <select className="form-control "  aria-label="Floating label select example" onChange={ (e) => setInfo(e.target.value)} >
+  <option selected>Country</option>
     {location.map((place) => (
-        <option value= {place} key={place.name}>{place.name}</option>
+        <option value= {place.name} key={place.name}>{place.name}</option>
     ))}
     
     
   </select>
-  <label >Country</label>
+  
 </div>
     </div>
   )
