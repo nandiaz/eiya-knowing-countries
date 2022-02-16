@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <dt className="col-sm-6">
-        Please, select the countries you wish to compare
-      </dt>
+      <h3 className="col-sm-6">
+        Please, select the countries you wish to compare...
+      </h3>
       <div className="row justify-content-center">
       <div className="col-sm-6">
         <Countries/>

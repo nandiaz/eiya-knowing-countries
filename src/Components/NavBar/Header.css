@@ -7,12 +7,12 @@
     margin-top: 0;
 }
 .title-logo{
+    display: flex;
    font-family: 'Satisfy' ;
     color: #ffffff;
     font-size: 1.5rem;
+    position: start;
     margin-bottom: 0;
-    margin-left: 5px;
-    margin-top: 5px;
     
 }
 
@@ -24,9 +24,8 @@
 }
 .welcome-text{
     width: 100vh;
-    font-family: 'Ruluko';
     font-size: 1.8rem;
-    margin-left: 25%;
+    margin-top: 20px;
     color: #ffffff;
     border: 2px solid #F2D888;
     box-shadow: 3px 3px 3px 3px #F2D888;
