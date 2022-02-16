@@ -13,7 +13,7 @@ Travel Time is a web application in which a traveler can compare two countries t
 
 ## Technologies and Tools
 
-- Figma <img src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg" alt="Figma" width="40" height="40"/>
+- Figma <img src="https://www.vectorlogo.zone/logos/figma/figma-ar21.svg" alt="Figma" width="60" height="40"/>
 - Css <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
 - Bootstrap <img src="https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg" alt="bootstrap" width="40" height="40"/>
 - React <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="react" width="50" height="40"/>
