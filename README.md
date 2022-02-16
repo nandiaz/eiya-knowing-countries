@@ -1,5 +1,5 @@
 # Travel Time
-You can open the [https://travel-time-eiya.netlify.app/](Travel Time) app.
+You can open the [Travel Time](https://travel-time-eiya.netlify.app/)  app.
 
 Travel Time is a web application in which a traveler can compare two countries to choose their next destination.
 
@@ -9,7 +9,7 @@ Travel Time is a web application in which a traveler can compare two countries t
 
 - Trello was used for project Planning
 - The color palette was selected
-- Made the prototype of low and high fidelity in [https://www.figma.com/file/Ykjcptc1tPRYjhDW3P3R1k/App-paises?node-id=4%3A2](figma)
+- Made the prototype of low and high fidelity in [figma](https://www.figma.com/file/Ykjcptc1tPRYjhDW3P3R1k/App-paises?node-id=4%3A2)
 
 ## Technologies and Tools
 
