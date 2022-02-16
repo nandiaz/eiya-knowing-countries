@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruluko&family=Satisfy&display=swap');
 .App {
   text-align: center;
+  font-family: 'Ruluko';
 }
 
 .App-logo {
@@ -22,6 +24,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Ruluko';
 }
 
 .App-link {

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruluko&family=Satisfy&display=swap');
+#logo{
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.title-logo{
+    display: flex;
+   font-family: 'Satisfy' ;
+    color: #ffffff;
+    font-size: 1.5rem;
+    position: start;
+    margin-bottom: 0;
+    
+}
+
+.container-logo{
+    display:flow-root;
+    height: auto;
+    align-items: center;
+    margin-left: 3%;
+}
+.welcome-text{
+    width: 100vh;
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #ffffff;
+    border: 2px solid #F2D888;
+    box-shadow: 3px 3px 3px 3px #F2D888;
+    border-radius: 10px;
+}
