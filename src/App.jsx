@@ -10,13 +10,12 @@ function App() {
         Please, select the countries you wish to compare...
       </h3>
       <div className="row justify-content-center">
-      <div className="col-sm-6">
-        <Countries/>
+        <div className="col-sm-6">
+          <Countries />
         </div>
         <div className="col-sm-6">
-        <Countries/>
+          <Countries />
         </div>
-        
       </div>
     </div>
   );
