@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Input = ({ location, setInfo, selectCountry }) => {
+export const Input = ({ location, setInfo}) => {
   const style = {
     bg : 'black',
   }
